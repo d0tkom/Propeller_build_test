@@ -10,16 +10,17 @@ body {
 .background {
 
   text-align: center;
-  background-image: url("../image/background_top.jpg"), url("../image/background_middle.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../image/background_top.jpg"), url("../image/background_middle.jpg"), url("../image/background_bottom.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top, bottom, bottom;
   min-height: 100%;
 
 }
 
 .wrapper {
-  max-width: 61.95%;
+  max-width: 67.31%;
   margin: 0 auto;
-  min-height: 10000px;
+  min-height: 2000px;
 }
 
 
@@ -108,6 +109,25 @@ nav {
   padding: 0px;
 }
 
-#book:hover {
+.menu_pic:hover {
   opacity: 0.5;
 }
+
+#indicator {
+
+}
+
+#indicator img {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -40px;
+}
+
+#indicator img:hover {
+  display: none;
+}
+
+
+
+
