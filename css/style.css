@@ -28,20 +28,25 @@ body {
 ul {
   list-style-type: none;
   color: white;
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
   padding: 1%;
   
 }
 ul li {
   display: inline;
-  padding: 4.14%;
+  padding: 1% 4.14% 1% 4.14%;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
   
 }
 
 ul a {
   text-decoration: none;
   color: white;
+}
+
+nav li:hover {
+  background-color: white;
+  color: black;
 }
 
 #welcome h1 {
@@ -93,8 +98,9 @@ footer {
 
 nav {
     font-family: 'Montserrat', sans-serif;
-
 }
+
+
 
 .menu_pic {
   max-width: 25%;
@@ -177,17 +183,21 @@ nav {
 .social input {
   background-color: transparent;
   border: 0;
-
-}
-
-.social input {
   outline-width: 0;
   color: white;
+
 }
+
 
 .social input[type=text] {
   min-width: 80%;
 }
+
+.social input[type=number] {
+  -webkit-appearance: none;
+
+}
+
 
 .social input[type=submit] {
   border: 1px solid white;
@@ -203,6 +213,7 @@ nav {
   border: 1px solid white;
   color: white;
   padding: 8px;
+  text-align: left;
 }
 
 footer {
