@@ -147,7 +147,22 @@ nav {
 }
 
 .social {
-  width: 33%;
+  width: 32%;
+  float: left;
+}
+
+#twitter {
+  padding-right: 1%;
+}
+
+#instagram {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#signup {
+  padding-left: 1%;
+  float: right;
 }
 
 .social h1 {
@@ -160,12 +175,13 @@ nav {
 }
 
 .social input {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  border: 1px solid white;
   background-color: transparent;
+  border: 0;
+
+}
+
+.social input {
+  outline-width: 0;
   color: white;
 }
 
@@ -174,11 +190,40 @@ nav {
 }
 
 .social input[type=submit] {
+  border: 1px solid white;
   border-radius: 3px;
+  min-width: 42.8%;
 }
 
 .input_wrapper {
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  color: white;
+  padding: 8px;
+}
+
+footer {
+  clear: both;
+}
+
+.social img {
+  width: 47%;
+}
+
+#salad {
+  float: left;
+}
+
+#orange {
+  float: right;
+}
+
+.photos {
+  margin: 0;
+  padding: 0;
 }
 
 
