@@ -4,23 +4,23 @@ body {
   padding: 0;
   margin: 0;
   font-family: Calluna-regular;
+  text-align: center;
 
 }
 
 .background {
-
-  text-align: center;
-  background-image: url("../image/background_top.jpg"), url("../image/background_middle.jpg"), url("../image/background_bottom.jpg");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: top, bottom, bottom;
-  min-height: 100%;
-
+  position: absolute;
+  z-index: -1;
 }
 
 .wrapper {
   max-width: 67.31%;
   margin: 0 auto;
   min-height: 2000px;
+}
+
+.bg {
+  float: left;
 }
 
 
@@ -93,7 +93,7 @@ footer {
 }
 
 .logo {
-  padding: 10px 10px 100px 10px;
+  padding: 20px 10px 200px 10px;
 }
 
 
@@ -106,24 +106,71 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
-.menu_pic {
-  max-width: 25%;
-   padding-top: 0px;
-   padding-bottom: 0px;
-   padding-left: 0px;
-   padding-right: 0px;
+#menu div{
+  float: left;
+  width: 25%;
+  height: 25%;
+  text-align: center;
 }
 
-#menu {
-  margin: 0px;
-  padding: 0px;
+
+
+#menu div:hover {
+
 }
 
-.menu_pic:hover {
-  opacity: 0.5;
+#book {
+  background-image: url("../image/bookatable.jpg");
+   background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%; 
 }
+
+#book:hover {
+  background-image: url("../image/bookatable_hover.jpg");
+}
+
+#menus {
+  background: url("../image/menus.jpg") no-repeat;
+     background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%; 
+}
+
+#menus:hover {
+  background-image: url("../image/menus_hover.jpg");
+}
+
+#christmas {
+  background: url("../image/christmas.jpg") no-repeat;
+     background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%; 
+}
+
+#christmas:hover {
+  background-image: url("../image/christmas_hover.jpg");
+}
+
+#contact {
+  background: url("../image/contact.jpg") no-repeat;
+     background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%; 
+}
+
+#contact:hover {
+  background-image: url("../image/contact_hover.jpg");
+}
+
 
 #carousel {
   max-width: 100%;
