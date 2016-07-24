@@ -114,11 +114,11 @@ nav {
 }
 
 #carousel {
-    max-width: 100%;
-   padding-top: 0px;
-   padding-bottom: 0px;
-   padding-left: 0px;
-   padding-right: 0px;
+  max-width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #indicator img {
@@ -157,6 +157,28 @@ nav {
 
 .social h2 {
   font-style: italic;
+}
+
+.social input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.social input[type=text] {
+  min-width: 80%;
+}
+
+.social input[type=submit] {
+  border-radius: 3px;
+}
+
+.input_wrapper {
+  
 }
 
 
