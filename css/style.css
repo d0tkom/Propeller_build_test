@@ -96,6 +96,12 @@ footer {
   padding: 10px 10px 100px 10px;
 }
 
+
+#logos a {
+  text-decoration: none;
+  color: white;
+}
+
 nav {
     font-family: 'Montserrat', sans-serif;
 }
