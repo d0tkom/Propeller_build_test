@@ -277,15 +277,25 @@ transition: background-image 0.2s ease-in-out;
 .social button {
   border: 1px solid white;
   border-radius: 3px;
-  min-width: 42.8%;
-    background-color: transparent;
+  min-width: 50%;
+  background-color: transparent;
   color: white;
+  font-family: montserrat;
+  font-size: 15pt;
 }
 
 .social input[type=submit] {
   border: 1px solid white;
   border-radius: 3px;
-  min-width: 42.8%;
+  min-width: 50%;
+    font-family: montserrat;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+.social input[type=submit]:hover {
+  color: black;
+  background: white;
 }
 
 .input_wrapper {
@@ -318,6 +328,11 @@ footer {
 .photos {
   margin: 0;
   padding: 0;
+}
+
+button:hover {
+  color: black;
+  background: white;
 }
 
 
