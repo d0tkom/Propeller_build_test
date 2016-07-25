@@ -98,6 +98,7 @@ nav ul a:hover {
 
 footer {
   color: white;
+  border-top: 3px double white;
 }
 
 .social {
