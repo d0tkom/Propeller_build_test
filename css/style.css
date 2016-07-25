@@ -46,9 +46,8 @@ ul {
   padding: 1%;
   
 }
-ul li {
-  display: inline;
-  padding: 1% 4.14% 1% 4.14%;
+nav ul li {
+  padding: 5px 0 5px 0;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
   
@@ -59,7 +58,7 @@ ul a {
   color: white;
 }
 
-nav li:hover {
+nav ul a:hover {
   background-color: white;
   color: black;
 }
