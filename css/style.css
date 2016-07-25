@@ -21,17 +21,13 @@ body {
   margin: 0;
   font-family: Calluna-regular;
   text-align: center;
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-.background {
-  position: absolute;
-  z-index: -1;
-}
 
-.bg img {
-  max-width: 100%;
-}
 
 
 
