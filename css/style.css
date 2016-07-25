@@ -273,6 +273,10 @@ transition: background-image 0.2s ease-in-out;
   border: 0;
   outline-width: 0;
   color: white;
+    font-family: Calluna;
+  font-style: italic;
+  font-size: 15pt;
+  padding-left: 3%;
 
 }
 
@@ -320,6 +324,15 @@ transition: background-image 0.2s ease-in-out;
   color: white;
   padding: 8px;
   text-align: left;
+}
+
+.input_text {
+  width: 20%;
+  border-right: 2px solid;
+  display: inline-block;
+    font-family: Calluna;
+  font-style: italic;
+  font-size: 15pt;
 }
 
 footer {
