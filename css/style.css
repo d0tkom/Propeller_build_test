@@ -14,6 +14,12 @@
     display: block;
 }
 
+.row {
+  max-width: 1240px;
+  width 50%;
+  margin: 0 auto;
+}
+
 
 
 body {
