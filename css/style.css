@@ -273,7 +273,7 @@ transition: background-image 0.2s ease-in-out;
   border: 0;
   outline-width: 0;
   color: white;
-    font-family: Calluna;
+  font-family: Calluna;
   font-style: italic;
   font-size: 15pt;
   padding-left: 3%;
@@ -282,7 +282,8 @@ transition: background-image 0.2s ease-in-out;
 
 
 .social input[type=text] {
-  min-width: 80%;
+
+
 }
 
 .social input[type=number] {
@@ -305,7 +306,7 @@ transition: background-image 0.2s ease-in-out;
   border: 1px solid white;
   border-radius: 3px;
   min-width: 50%;
-    font-family: montserrat;
+  font-family: montserrat;
   font-size: 15pt;
   font-weight: bold;
 }
@@ -313,6 +314,14 @@ transition: background-image 0.2s ease-in-out;
 .social input[type=submit]:hover {
   color: black;
   background: white;
+}
+
+.social input[name="day"] {
+
+}
+
+.social input[name="month"] {
+
 }
 
 .input_wrapper {
@@ -326,17 +335,35 @@ transition: background-image 0.2s ease-in-out;
   text-align: left;
 }
 
+.day_month_wrapper {
+  display: inline-block;  
+  width: 35%;
+  text-align: center;
+}
+
+.day_month_wraper input {
+  text-align: center;
+  width: 10px;
+}
+
 .input_text {
   width: 20%;
   border-right: 2px solid;
   display: inline-block;
-    font-family: Calluna;
+  font-family: Calluna;
   font-style: italic;
   font-size: 15pt;
 }
 
-footer {
-  clear: both;
+footer li {
+  font-size: 15pt;
+  display: inline;
+  border-right: 2px solid white;
+  padding: 0 10px 0 10px;
+}
+
+footer li:last-child {
+  border-right: 0;
 }
 
 .social img {

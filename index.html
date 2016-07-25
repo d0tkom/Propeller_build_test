@@ -87,18 +87,31 @@
             <h1>Sign Up</h1>
             <h2>Subscribe our newsletter and never miss out our exclusive offers!</h2>
             <form>
-              <div class="input_wrapper"><div class="input_text"><i>name</i></div><input type="text" name="name"></input></div>
-              <div class="input_wrapper"><div class="input_text"><i>email</i></div><input type="text" name="email"></input></div>
-              <div class="input_wrapper"><div class="input_text"><i>birthday</i></div><input type="number" min="1" max="31" name="day" placeholder="dd"/><input type="number" min="1" max="12" name="month" placeholder="mm"/>
+              <div class="input_wrapper"><div class="input_text"><i>name</i></div><input type="text" name="name" required></input></div>
+              <div class="input_wrapper"><div class="input_text"><i>email</i></div><input type="text" name="email" required></input></div>
+              <div class="input_wrapper">
+                <div class="input_text"><i>birthday</i>
+                </div>
+                <div class="day_month_wrapper"><input type="text" pattern="(0[1-9]|[12]\d|3[01])" name="day" placeholder="dd" list="numbers" required/></div>
+              <div class="day_month_wrapper"><input type="text" pattern="^(0?[1-9]|1[012])$" list="months" name="month" placeholder="mm" required/></div>
               </div>
-              </datalist>
+
               <input type="submit"></input>
             </form>
           </div>
           </div>
           <div class="row">
           <footer class="col-12">
-PBT Propeller     |     1-3 Windsor court     |     Rugby     |     Warwickshire     |     CV21 3BH     |     pbt@propcom.co.uk     |     01788 566270     |     <i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i>  <i class="fa fa-instagram" aria-hidden="true"></i>
+            <ul>
+              <li>PBT Propeller</li>
+              <li>1-3 Windsor court</li>
+              <li>Rugby</li>
+              <li>Warwickshire</li>
+              <li>CV21 3BH</li>
+              <li>pbt@propcom.co.uk</li>
+              <li>01788 566270</li>
+              <li><i class="fa fa-facebook" aria-hidden="true"></i>&emsp;<i class="fa fa-twitter" aria-hidden="true"></i>&emsp;<i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </ul>
           </footer>
           </div>
   </body>
