@@ -28,12 +28,10 @@ body {
 }
 
 
-
-
-
-.bg {
-  float: left;
+nav ul {
+  padding: 0;
 }
+
 
 
 
@@ -47,6 +45,7 @@ nav ul li {
   border-top: 2px solid white;
   
 }
+
 
 ul a {
   text-decoration: none;
@@ -378,7 +377,7 @@ button:hover {
     .col-12 {width: 100%;}
 }
 @media only screen and (max-width: 768px) {
-    /* For desktop: */
+    /* change background for smaller screens */
     body {
         background-image: url("../image/background_mobile.jpg");
   background-repeat: no-repeat;
