@@ -36,3 +36,5 @@ function move_carousel(x) {
 	})
 	
 }
+
+

@@ -60,6 +60,18 @@ nav ul a:hover {
   color: black;
 }
 
+#fb_icon:hover {
+  color: #3B5999;
+}
+
+#twitter_icon:hover {
+  color: #55acee;
+}
+
+#instagram_icon:hover {
+  color: #ffdc80;
+}
+
 #welcome h1 {
   text-transform: uppercase;
   padding-top: 0px;
@@ -191,13 +203,7 @@ transition: background-image 0.2s ease-in-out;
 }
 
 
-#carousel {
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 
 #indicator img {
   display: inline-block;
@@ -399,6 +405,14 @@ button:hover {
 
 
 #carousel {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#carousel {
     width: 1240px;
     height: 510px;
     overflow:hidden;
@@ -415,6 +429,7 @@ button:hover {
     list-style: none;
     float:  left;
   }
+
 
 
 
