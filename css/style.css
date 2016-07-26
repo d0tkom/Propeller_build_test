@@ -40,17 +40,17 @@ nav ul {
 
 
 
-ul {
+nav ul {
   list-style-type: none;
   color: white;  
 }
 
 
-ul a {
+nav ul a {
   text-decoration: none;
   color: white;
   display: block;
-    padding: 12px 0 12px 0;
+  padding: 12px 0 12px 0;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
 }
@@ -59,6 +59,8 @@ nav ul a:hover {
   background-color: white;
   color: black;
 }
+
+
 
 
 
@@ -333,8 +335,9 @@ transition: background-image 0.2s ease-in-out;
 }
 
 .day_month_wraper input {
-  text-align: center;
-  width: 10px;
+  width: 5px;
+    margin: 0 auto; 
+    border: 1px solid white;
 }
 
 .input_text {
@@ -472,10 +475,17 @@ button:hover {
 @media only screen and (max-width: 768px) {
     /* change background for smaller screens */
     body {
-        background-image: url("../image/background_mobile.jpg");
-  background-repeat: no-repeat;
-    background-size: cover;
+      background-image: url("../image/background_mobile.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+
+}
+
+select {
+   background: transparent;
+   border: 0;
+   color: white;
 }
 
 
