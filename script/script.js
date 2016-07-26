@@ -1,7 +1,9 @@
 var position = 0;
+var autoplay = true;
 $(document).ready(function(){
 	// Set the interval to be 5 seconds
-	var t = setInterval(function(){
+	if (autoplay) {
+	setInterval(function(){
 		carousel(1);
 		position++;
 		if (position==6) {
@@ -14,6 +16,7 @@ $(document).ready(function(){
 		document.getElementById(position).src = "./image/on.png";
 		console.log(position);
 	},3000);
+	}
 });
 
 function carousel(x) {
@@ -22,3 +25,5 @@ function carousel(x) {
 		$(this).css({marginLeft:0});
 	})
 }
+
+
