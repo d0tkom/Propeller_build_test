@@ -1,25 +1,28 @@
-@font-face {font-family:"Calluna-Regular";src:url("../fonts/Calluna-Regular.eot?") format("eot"),url("../fonts/Calluna-Regular.woff") format("woff"),url("../fonts/Calluna-Regular.ttf") format("truetype"),url("../fonts/Calluna-Regular.svg#Calluna-Regular") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family: "Calluna-Regular";
+  src: url("../fonts/Calluna-Regular.eot?") format("eot"), url("../fonts/Calluna-Regular.woff") format("woff"), url("../fonts/Calluna-Regular.ttf") format("truetype"), url("../fonts/Calluna-Regular.svg#Calluna-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
 }
 
 [class*="col-"] {
-    float: left;
+  float: left;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .row {
   max-width: 1240px;
   margin: 0 auto;
 }
-
-
 
 body {
   padding: 0;
@@ -28,23 +31,17 @@ body {
   text-align: center;
   background-image: url("../image/background.jpg");
   background-repeat: no-repeat;
-    background-size: cover;
-
+  background-size: cover;
 }
-
 
 nav ul {
   padding: 0;
 }
 
-
-
-
 nav ul {
   list-style-type: none;
-  color: white;  
+  color: white;
 }
-
 
 nav ul a {
   text-decoration: none;
@@ -59,10 +56,6 @@ nav ul a:hover {
   background-color: white;
   color: black;
 }
-
-
-
-
 
 #fb_icon:hover {
   color: #3B5999;
@@ -83,7 +76,6 @@ nav ul a:hover {
 
 #welcome {
   font-family: montserrat;
-
   margin: 0px auto;
 }
 
@@ -97,14 +89,13 @@ nav ul a:hover {
   margin: 0;
   text-align: justify;
   text-align-last: center;
-
   margin: 0px auto;
   font-family: calluna;
 }
+
 .social {
   display: inline-block;
 }
-
 
 #logo {
   max-width: 30%;
@@ -125,36 +116,31 @@ footer {
   padding: 20px 10px 200px 10px;
 }
 
-
 #logos a {
   text-decoration: none;
   color: white;
 }
 
 nav {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#menu div{
+#menu div {
   float: left;
   width: 25%;
   height: 25%;
   text-align: center;
 }
 
-
-
-
-
 #book {
   background-image: url("../image/bookatable.jpg");
-   background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 25%; 
-    -webkit-transition: background-image 0.2s ease-in-out;
-transition: background-image 0.2s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 
 #book:hover {
@@ -163,12 +149,12 @@ transition: background-image 0.2s ease-in-out;
 
 #menus {
   background: url("../image/menus.jpg") no-repeat;
-     background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 25%; 
-    -webkit-transition: background-image 0.2s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
   transition: background-image 0.2s ease-in-out;
 }
 
@@ -178,13 +164,13 @@ transition: background-image 0.2s ease-in-out;
 
 #christmas {
   background: url("../image/christmas.jpg") no-repeat;
-     background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 25%; 
-    -webkit-transition: background-image 0.2s ease-in-out;
-transition: background-image 0.2s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 
 #christmas:hover {
@@ -193,20 +179,18 @@ transition: background-image 0.2s ease-in-out;
 
 #contact {
   background: url("../image/contact.jpg") no-repeat;
-     background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 25%; 
-    -webkit-transition: background-image 0.2s ease-in-out;
-transition: background-image 0.2s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 
 #contact:hover {
   background-image: url("../image/contact_hover.jpg");
 }
-
-
 
 .social {
   width: 32%;
@@ -216,7 +200,6 @@ transition: background-image 0.2s ease-in-out;
 #twitter {
   padding-right: 1%;
 }
-
 
 #instagram {
   padding-left: 1%;
@@ -249,11 +232,8 @@ transition: background-image 0.2s ease-in-out;
   font-family: Calluna;
   font-weight: normal;
   font-size: 15pt;
-
   text-align: justify;
 }
-
-
 
 .social input {
   background-color: transparent;
@@ -264,17 +244,14 @@ transition: background-image 0.2s ease-in-out;
   font-style: italic;
   font-size: 15pt;
   padding-left: 3%;
-
 }
 
-
 .social input[type=text] {
-  width:80%;
+  width: 80%;
 }
 
 .social input[type=number] {
   -webkit-appearance: none;
-
 }
 
 .social button {
@@ -285,7 +262,6 @@ transition: background-image 0.2s ease-in-out;
   color: white;
   font-family: montserrat;
   font-size: 15pt;
-
 }
 
 .social input[type=submit] {
@@ -303,14 +279,9 @@ transition: background-image 0.2s ease-in-out;
   background: white;
 }
 
-.social input[name="day"] {
+.social input[name="day"] {}
 
-}
-
-.social input[name="month"] {
-
-}
-
+.social input[name="month"] {}
 
 .social_top {
   min-height: 50%;
@@ -329,15 +300,15 @@ transition: background-image 0.2s ease-in-out;
 }
 
 .day_month_wrapper {
-  display: inline-block;  
+  display: inline-block;
   width: 35%;
   text-align: center;
 }
 
 .day_month_wraper input {
   width: 5px;
-    margin: 0 auto; 
-    border: 1px solid white;
+  margin: 0 auto;
+  border: 1px solid white;
 }
 
 .input_text {
@@ -382,37 +353,33 @@ button:hover {
   background: white;
 }
 
-
-
-
-
 .slider {
-    width: 100%;
- 
+  width: 100%;
 }
 
 .slick-slide {
-    background: $c1;
-    color: white;
-    padding: 0;
-    font-size: 30px;
-    font-family: "Arial", "Helvetica";
-    text-align: center;
-    
-    img { display: inline-block; }
+  background: $c1;
+  color: white;
+  padding: 0;
+  font-size: 30px;
+  font-family: "Arial", "Helvetica";
+  text-align: center;
+  img {
+    display: inline-block;
+  }
 }
 
-.slick-prev:before, 
+.slick-prev:before,
 .slick-next:before {
-    color: black;    
+  color: black;
 }
 
 .slick-dots {
-    bottom: -40px;
+  bottom: -40px;
 }
 
 .slick-slide:nth-child(odd) {
-     background: $c2;
+  background: $c2;
 }
 
 .slider a {
@@ -422,77 +389,116 @@ button:hover {
 }
 
 .slick-active img:not(.fix) {
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-    transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
 }
 
 .slider img {
   max-width: 100%;
-    height: auto;
+  height: auto;
 }
-
-
-
-
-
 
 
 /* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-@media only screen and (max-width: 768px) {
-    /* change background for smaller screens */
-    body {
-      background-image: url("../image/background_mobile.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
 
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* change background for smaller screens */
+  body {
+    background-image: url("../image/background_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 select {
-   background: transparent;
-   border: 0;
-   color: white;
+  background: transparent;
+  border: 0;
+  color: white;
 }
-
-
-
-
-
-
-
-
-
