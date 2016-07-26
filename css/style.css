@@ -358,15 +358,13 @@ button:hover {
 }
 
 .slick-slide {
-  background: $c1;
+
   color: white;
   padding: 0;
   font-size: 30px;
   font-family: "Arial", "Helvetica";
   text-align: center;
-  img {
-    display: inline-block;
-  }
+
 }
 
 .slick-prev:before,
@@ -378,9 +376,7 @@ button:hover {
   bottom: -40px;
 }
 
-.slick-slide:nth-child(odd) {
-  background: $c2;
-}
+
 
 .slider a {
   border: 0;
