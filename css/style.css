@@ -384,7 +384,7 @@ button:hover {
 
 
 .slider {
-    width: auto;
+    width: 100%;
  
 }
 
@@ -422,6 +422,11 @@ button:hover {
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+}
+
+.slider img {
+  max-width: 100%;
+    height: auto;
 }
 
 
