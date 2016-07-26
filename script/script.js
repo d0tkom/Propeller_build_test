@@ -26,4 +26,13 @@ function carousel(x) {
 	})
 }
 
+function move_carousel(x) {
+	var move = 0;
 
+	$("#carousel ul").animate({marginLeft:-(x-position)*1240},1000,function(){
+		$(this).find("li:last").after($(this).find("li:first"));
+		$(this).css({marginLeft:0});
+		x = position;
+	})
+	
+}
