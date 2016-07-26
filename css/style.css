@@ -60,6 +60,8 @@ nav ul a:hover {
   color: black;
 }
 
+
+
 #fb_icon:hover {
   color: #3B5999;
 }
@@ -203,32 +205,6 @@ transition: background-image 0.2s ease-in-out;
 }
 
 
-
-
-#indicator img {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  top: -40px;
-}
-
-#indicator img:hover {
-  width:18px;
-  height:18px;
-  box-sizing:border-box;
-  padding-left: 18px;
-  /*width of the image*/
-  background: url("../image/on.png") left top no-repeat;
-}
-
-#indicator img:active {
-  width:18px;
-  height:18px;
-  box-sizing:border-box;
-  padding-left: 18px;
-  /*width of the image*/
-  background: url("../image/on.png") left top no-repeat;
-}
 
 .social {
   width: 32%;
@@ -404,31 +380,52 @@ button:hover {
 }
 
 
-#carousel {
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+
+
+
+.slider {
+    width: auto;
+ 
 }
 
-#carousel {
-    width: 1240px;
-    height: 510px;
-    overflow:hidden;
-  }
-#carousel ul {
-    width: 4960px;
+.slick-slide {
+    background: $c1;
+    color: white;
     padding: 0;
-    margin: 0;
-  }
-    #carousel ul li {
-    width:1240px;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
     text-align: center;
-    height: 510px;
-    list-style: none;
-    float:  left;
-  }
+    
+    img { display: inline-block; }
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black;    
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-slide:nth-child(odd) {
+     background: $c2;
+}
+
+.slider a {
+  border: 0;
+  position: relative;
+  top: -40px;
+}
+
+.slick-active img:not(.fix) {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+
+
 
 
 
