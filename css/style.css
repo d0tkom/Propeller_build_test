@@ -285,8 +285,7 @@ transition: background-image 0.2s ease-in-out;
 
 
 .social input[type=text] {
-
-
+  width:80%;
 }
 
 .social input[type=number] {
