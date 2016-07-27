@@ -238,7 +238,7 @@ nav ul a:hover {
 }
 
 /* rotate slider indicators when active */
-.slick-active img:not(.fix) {
+.slick-active img:not(.carousel-img) {
   -ms-transform: rotate(45deg);
   /* IE 9 */
   -webkit-transform: rotate(45deg);
