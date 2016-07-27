@@ -440,7 +440,8 @@ nav ul a:hover {
 }
 
 #signup form {
-   margin-top: 45px;
+   margin: 45px auto;
+   width: 95%;
 }
 
 .input-wrapper {
@@ -452,7 +453,7 @@ nav ul a:hover {
 
 .day-month-wrapper {
   display: inline-block;
-  width: 61%;
+  width: 59%;
   text-align: center;
 }
 
