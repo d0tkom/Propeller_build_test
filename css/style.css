@@ -370,9 +370,10 @@ nav ul a:hover {
 }
 
 .social button {
-  border: 2px solid white;
-  border-radius: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
   min-width: 50%;
+  height: 35px;
   background-color: transparent;
   color: white;
   font-family: montserrat-bold;
@@ -386,9 +387,10 @@ nav ul a:hover {
 }
 
 .social input[type=submit] {
-  border: 2px solid white;
-  border-radius: 3px;
+  border: 1px solid white;
+  border-radius: 5px;
   min-width: 50%;
+  height: 35px;
   font-family: montserrat-bold;
   font-size: 15px;
   font-style: normal;
