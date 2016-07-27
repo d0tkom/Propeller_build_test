@@ -469,6 +469,8 @@ nav ul a:hover {
   background: transparent;
   border: 0;
   color: white;
+  font-family: Calluna-It;
+  font-size: 18px;
 }
 
 /* footer format */
