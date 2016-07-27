@@ -345,8 +345,14 @@ nav ul a:hover {
   text-align: justify;
 }
 
-.social p.twitter-last-line {
+#twitter p {
+  width: 77%;
+  margin: 4% auto 0 auto;
+}
+
+.social #twitter-last-line {
   text-align: right;
+  margin-top: 0;
 }
 
 .social input {
@@ -448,6 +454,7 @@ nav ul a:hover {
 /* footer format */
 footer {
   border-top: 3px double white;
+  margin-top: 10px;
 }
 
 footer li {
