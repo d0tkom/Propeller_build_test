@@ -242,6 +242,10 @@ nav ul a:hover {
 
 /* picture menu */
 
+#pic-menu img {
+  display: none;
+}
+
 #pic-menu div {
   float: left;
   width: 25%;
@@ -400,12 +404,20 @@ nav ul a:hover {
   width: 47%;
 }
 
+#instagram div {
+   margin-top: 5%;
+}
+
 #salad {
   float: left;
 }
 
 #orange {
   float: right;
+}
+
+#signup form {
+   margin-top: 10%;
 }
 
 .input-wrapper {
