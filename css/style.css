@@ -166,7 +166,7 @@ nav ul a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: 19px 0 19px 0;
+  padding: 18px 0 18px 0;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
 }
@@ -177,7 +177,7 @@ nav ul a:hover {
 }
 
 .social-logo {
-  padding: 52px 0px 200px 0px;
+  padding: 52px 0px 150px 0px;
   color: white;
 }
 
@@ -206,11 +206,11 @@ nav ul a:hover {
 
 .welcome h1 {
   text-transform: uppercase;
-  padding-top: 0px;
+  padding-top: 25px;
 }
 
 .welcome p {
-  padding: 0 2% 0 2%;
+  padding-bottom: 60px;
   margin: 0;
   text-align: justify;
   text-align-last: center;
