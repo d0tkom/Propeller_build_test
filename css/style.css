@@ -251,6 +251,10 @@ nav ul a:hover {
   height: auto;
 }
 
+.slick-dots li a img {
+    -webkit-transition: 0.65s;
+  transition: 0.65s;
+}
 /* picture menu */
 
 #pic-menu img {
