@@ -380,6 +380,14 @@ nav ul a:hover {
   padding-left: 2%;
 }
 
+input {
+	outline: none;
+}
+
+select {
+	outline: none;
+}
+
 .social input[type=text] {
   width: 60%;
 }
