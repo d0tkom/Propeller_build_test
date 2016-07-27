@@ -185,15 +185,15 @@ nav ul a:hover {
   color: white;
 }
 
-#fb_icon:hover {
+#fb-icon:hover {
   color: #3B5999;
 }
 
-#twitter_icon:hover {
+#twitter-icon:hover {
   color: #55acee;
 }
 
-#instagram_icon:hover {
+#instagram-icon:hover {
   color: #ffdc80;
 }
 
@@ -395,7 +395,7 @@ nav ul a:hover {
   font-size: 15px;
   font-style: normal;
   text-transform: uppercase;
-  margin-bottom: 5%;
+
 }
 
 .social input[type=submit]:hover {
@@ -429,7 +429,7 @@ nav ul a:hover {
 }
 
 .input-wrapper {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   border: 1px solid white;
   padding: 8px;
   text-align: left;
@@ -456,7 +456,7 @@ nav ul a:hover {
 /* footer format */
 footer {
   border-top: 3px double white;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 footer li {
@@ -469,4 +469,25 @@ footer li {
 
 footer li:last-child {
   border-right: 0;
+}
+
+footer a {
+  color: white;
+}
+
+#fb-icon-small:hover {
+  color: #3B5999;
+}
+
+#twitter-icon-small:hover {
+  color: #55acee;
+}
+
+#instagram-icon-small:hover {
+  color: #ffdc80;
+}
+
+#bottom-logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
