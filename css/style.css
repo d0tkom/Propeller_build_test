@@ -404,6 +404,7 @@ nav ul a:hover {
   border: 1px solid white;
   border-radius: 5px;
   min-width: 50%;
+  margin-top: 7px;
   height: 35px;
   font-family: montserrat-bold;
   font-size: 15px;
@@ -439,7 +440,7 @@ nav ul a:hover {
 }
 
 #signup form {
-   margin-top: 10%;
+   margin-top: 45px;
 }
 
 .input-wrapper {
@@ -471,6 +472,10 @@ nav ul a:hover {
 footer {
   border-top: 3px double white;
   margin-top: 40px;
+}
+
+footer ul {
+  margin-top: 30px;
 }
 
 footer li {
