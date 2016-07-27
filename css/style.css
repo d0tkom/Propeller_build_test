@@ -388,6 +388,14 @@ select {
 	outline: none;
 }
 
+#day option {
+	background-color: #2F2725;
+}
+
+#month option {
+	background-color: #2F2725;
+}
+
 .social input[type=text] {
   width: 60%;
 }
