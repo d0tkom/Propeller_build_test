@@ -5,399 +5,6 @@
   font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-[class*="col-"] {
-  float: left;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.row {
-  max-width: 1240px;
-  margin: 0 auto;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Calluna-regular;
-  text-align: center;
-  background-image: url("../image/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-nav ul {
-  padding: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  color: white;
-}
-
-nav ul a {
-  text-decoration: none;
-  color: white;
-  display: block;
-  padding: 12px 0 12px 0;
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
-}
-
-nav ul a:hover {
-  background-color: white;
-  color: black;
-}
-
-#fb_icon:hover {
-  color: #3B5999;
-}
-
-#twitter_icon:hover {
-  color: #55acee;
-}
-
-#instagram_icon:hover {
-  color: #ffdc80;
-}
-
-#welcome h1 {
-  text-transform: uppercase;
-  padding-top: 0px;
-}
-
-#welcome {
-  font-family: montserrat;
-  margin: 0px auto;
-}
-
-#welcome_wrap {
-  background-color: white;
-  padding: 50px;
-}
-
-#welcome_wrap p {
-  padding: 0;
-  margin: 0;
-  text-align: justify;
-  text-align-last: center;
-  margin: 0px auto;
-  font-family: calluna;
-}
-
-.social {
-  display: inline-block;
-}
-
-#logo {
-  max-width: 30%;
-  padding-top: 150px;
-  padding-bottom: 20px;
-}
-
-footer {
-  color: white;
-  border-top: 3px double white;
-}
-
-.social {
-  color: white;
-}
-
-.logo {
-  padding: 20px 10px 200px 10px;
-}
-
-#logos a {
-  text-decoration: none;
-  color: white;
-}
-
-nav {
-  font-family: 'Montserrat', sans-serif;
-}
-
-#menu div {
-  float: left;
-  width: 25%;
-  height: 25%;
-  text-align: center;
-}
-
-#book {
-  background-image: url("../image/bookatable.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 25%;
-  -webkit-transition: background-image 0.2s ease-in-out;
-  transition: background-image 0.2s ease-in-out;
-}
-
-#book:hover {
-  background-image: url("../image/bookatable_hover.jpg");
-}
-
-#menus {
-  background: url("../image/menus.jpg") no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 25%;
-  -webkit-transition: background-image 0.2s ease-in-out;
-  transition: background-image 0.2s ease-in-out;
-}
-
-#menus:hover {
-  background-image: url("../image/menus_hover.jpg");
-}
-
-#christmas {
-  background: url("../image/christmas.jpg") no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 25%;
-  -webkit-transition: background-image 0.2s ease-in-out;
-  transition: background-image 0.2s ease-in-out;
-}
-
-#christmas:hover {
-  background-image: url("../image/christmas_hover.jpg");
-}
-
-#contact {
-  background: url("../image/contact.jpg") no-repeat;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 25%;
-  -webkit-transition: background-image 0.2s ease-in-out;
-  transition: background-image 0.2s ease-in-out;
-}
-
-#contact:hover {
-  background-image: url("../image/contact_hover.jpg");
-}
-
-.social {
-  width: 32%;
-  float: left;
-}
-
-#twitter {
-  padding-right: 1%;
-}
-
-#instagram {
-  padding-left: 1%;
-  padding-right: 1%;
-}
-
-#signup {
-  padding-left: 1%;
-  float: right;
-}
-
-.social h1 {
-  border-bottom: 2px solid white;
-  text-transform: uppercase;
-  font-family: montserrat;
-  font-weight: normal;
-  font-size: 18pt;
-  padding-bottom: 10px;
-}
-
-.social h2 {
-  font-style: italic;
-  font-family: Calluna;
-  font-weight: normal;
-  font-size: 18pt;
-}
-
-.social p {
-  font-style: italic;
-  font-family: Calluna;
-  font-weight: normal;
-  font-size: 15pt;
-  text-align: justify;
-}
-
-.social input {
-  background-color: transparent;
-  border: 0;
-  outline-width: 0;
-  color: white;
-  font-family: Calluna;
-  font-style: italic;
-  font-size: 15pt;
-  padding-left: 3%;
-}
-
-.social input[type=text] {
-  width: 80%;
-}
-
-.social input[type=number] {
-  -webkit-appearance: none;
-}
-
-.social button {
-  border: 1px solid white;
-  border-radius: 3px;
-  min-width: 50%;
-  background-color: transparent;
-  color: white;
-  font-family: montserrat;
-  font-size: 15pt;
-}
-
-.social input[type=submit] {
-  border: 1px solid white;
-  border-radius: 3px;
-  min-width: 50%;
-  font-family: montserrat;
-  font-size: 15pt;
-  font-weight: bold;
-  margin-bottom: 5%;
-}
-
-.social input[type=submit]:hover {
-  color: black;
-  background: white;
-}
-
-.social input[name="day"] {}
-
-.social input[name="month"] {}
-
-.social_top {
-  min-height: 50%;
-  border: 1px solid;
-}
-
-.input_wrapper {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  border: 1px solid white;
-  color: white;
-  padding: 8px;
-  text-align: left;
-}
-
-.day_month_wrapper {
-  display: inline-block;
-  width: 35%;
-  text-align: center;
-}
-
-.day_month_wraper input {
-  width: 5px;
-  margin: 0 auto;
-  border: 1px solid white;
-}
-
-.input_text {
-  width: 20%;
-  border-right: 2px solid;
-  display: inline-block;
-  font-family: Calluna;
-  font-style: italic;
-  font-size: 15pt;
-}
-
-footer li {
-  font-size: 15pt;
-  display: inline;
-  border-right: 2px solid white;
-  padding: 0 10px 0 10px;
-}
-
-footer li:last-child {
-  border-right: 0;
-}
-
-.social img {
-  width: 47%;
-}
-
-#salad {
-  float: left;
-}
-
-#orange {
-  float: right;
-}
-
-.photos {
-  margin: 0;
-  padding: 0;
-}
-
-button:hover {
-  color: black;
-  background: white;
-}
-
-.slider {
-  width: 100%;
-}
-
-.slick-slide {
-
-  color: white;
-  padding: 0;
-  font-size: 30px;
-  font-family: "Arial", "Helvetica";
-  text-align: center;
-
-}
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
-}
-
-.slick-dots {
-  bottom: -40px;
-}
-
-
-
-.slider a {
-  border: 0;
-  position: relative;
-  top: -40px;
-}
-
-.slick-active img:not(.fix) {
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-}
-
-.slider img {
-  max-width: 100%;
-  height: auto;
-}
-
-
 /* For mobile phones: */
 
 [class*="col-"] {
@@ -493,8 +100,321 @@ button:hover {
   }
 }
 
-select {
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#pbt-logo {
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  color: white;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 12px 0 12px 0;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+nav ul a:hover {
+  background-color: white;
+  color: black;
+}
+
+#fb_icon:hover {
+  color: #3B5999;
+}
+
+#twitter_icon:hover {
+  color: #55acee;
+}
+
+#instagram_icon:hover {
+  color: #ffdc80;
+}
+
+.welcome {
+  font-family: montserrat;
+  background-color: white;
+  color: black;
+}
+
+.welcome h1 {
+  text-transform: uppercase;
+  padding-top: 0px;
+}
+
+.welcome p {
+  padding: 0 2% 0 2%;
+  margin: 0;
+  text-align: justify;
+  text-align-last: center;
+  font-family: calluna;
+}
+
+
+/* slick plugin css settings */
+/*position picture indicators */
+.slider a {
+  position: relative;
+  top: -40px;
+}
+
+/* rotate slider indicators when active */
+.slick-active img:not(.fix) {
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+/* make slider images responsive */
+.slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*social feed settings */
+
+.social-logo {
+  padding: 20px 10px 200px 10px;
+  color: white;
+}
+
+.social-logo a {
+  color: white;
+}
+
+#pic-menu div {
+  float: left;
+  width: 25%;
+}
+
+#book {
+  background: url("../image/bookatable.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+#book:hover {
+  background-image: url("../image/bookatable_hover.jpg");
+}
+
+#menus {
+  background: url("../image/menus.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+#menus:hover {
+  background-image: url("../image/menus_hover.jpg");
+}
+
+#christmas {
+  background: url("../image/christmas.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+#christmas:hover {
+  background-image: url("../image/christmas_hover.jpg");
+}
+
+#contact {
+  background: url("../image/contact.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 25%;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+#contact:hover {
+  background-image: url("../image/contact_hover.jpg");
+}
+
+/* space between twitter instagram and signup */
+#twitter {
+  padding-right: 1%;
+}
+
+#instagram {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#signup {
+  padding-left: 1%;
+  float: right;
+}
+
+/* twitter instagram and signup format */
+.social h1 {
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-weight: normal;
+  font-size: 18pt;
+  padding-bottom: 10px;
+}
+
+.social h2 {
+  font-style: italic;
+  font-family: Calluna;
+  font-weight: normal;
+  font-size: 18pt;
+}
+
+.social p {
+  font-style: italic;
+  font-family: Calluna;
+  font-weight: normal;
+  font-size: 15pt;
+  text-align: justify;
+}
+
+.social p.twitter-last-line {
+  text-align: right;
+}
+
+.social input {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-family: Calluna;
+  font-style: italic;
+  font-size: 15pt;
+  padding-left: 2%;
+}
+
+.social input[type=text] {
+  width: 80%;
+}
+
+.social button {
+  border: 2px solid white;
+  border-radius: 3px;
+  min-width: 50%;
+  background-color: transparent;
+  color: white;
+  font-family: montserrat;
+  font-size: 15pt;
+}
+
+.social input[type=submit] {
+  border: 2px solid white;
+  border-radius: 3px;
+  min-width: 50%;
+  font-family: montserrat;
+  font-size: 15pt;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.social input[type=submit]:hover {
+  color: black;
+  background: white;
+}
+
+.social_top {
+  min-height: 50%;
+  border: 1px solid;
+}
+
+.social img {
+  width: 47%;
+}
+
+.social button:hover {
+  color: black;
+  background: white;
+}
+
+#salad {
+  float: left;
+}
+
+#orange {
+  float: right;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+.day-month-wrapper {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+}
+
+.input-text {
+  width: 20%;
+  border-right: 2px solid;
+  display: inline-block;
+  font-family: Calluna;
+  font-style: italic;
+  font-size: 15pt;
+}
+
+.social select {
   background: transparent;
   border: 0;
   color: white;
+}
+
+/* footer format */
+footer {
+  border-top: 3px double white;
+}
+
+footer li {
+  font-size: 15pt;
+  display: inline;
+  border-right: 2px solid white;
+  padding: 0 10px 0 10px;
+}
+
+footer li:last-child {
+  border-right: 0;
 }

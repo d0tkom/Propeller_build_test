@@ -15,7 +15,7 @@
 
 <body>
   <!-- PBT logo -->
-  <div class="row"><img src="./image/logo.png" alt="PBT logo" id="logo"></div>
+  <div class="row"><img src="./image/logo.png" alt="PBT logo" id="pbt-logo"></div>
   
   <!-- Navigation bar-->
   <nav class="row">
@@ -30,31 +30,31 @@
   </nav>
 
   <!-- Social media logos using fontawesome -->
-  <div class="row" id="logos">
-    <span class="fa-stack fa-lg logo"><a id="fb_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></a></span>&emsp;
-    <span class="fa-stack fa-lg logo"><a id="twitter_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></a></span>&emsp;
-    <span class="fa-stack fa-lg logo"><a id="instagram_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></a></span>
+  <div class="row">
+    <span class="fa-stack fa-lg social-logo"><a id="fb_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></a></span>&emsp;
+    <span class="fa-stack fa-lg social-logo"><a id="twitter_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></a></span>&emsp;
+    <span class="fa-stack fa-lg social-logo"><a id="instagram_icon" href="#"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></a></span>
   </div>
 
   <!-- Welcome message -->
-  <div id="welcome_wrap" class="row">
-    <div id="welcome" class="row">
+    <div class="welcome row">
       <div class="col-4">&nbsp;</div>
       <div class="col-4">
         <h1><b>Welcome to PBT, Propeller!</b></h1></div>
       <div class="col-4">&nbsp;</div>
     </div>
-    <div class="row">
+    <div class="welcome row">
       <div class="col-3">&nbsp;</div>
       <div class="col-6">
         <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
       </div>
+      <div class="col-3">&nbsp;</div>
     </div>
-    <div class="col-3">&nbsp;</div>
-  </div>
+    
 
-  <!-- menu with pictures -->
-  <div id="menu" class="row">
+
+  <!-- menu with pictures. pictures inside divs are for seamless hover effect -->
+  <div id="pic-menu" class="row">
     <a href="#">
       <div id="book" class="col-3 col-m-6"><img src="./image/bookatable_hover.jpg" alt="Book a table" style="display: none;">
       </div>
@@ -85,14 +85,14 @@
     </div>
   </div>
 
-  <!-- twitter instagram and signup -->
+  <!-- twitter, instagram and signup -->
   <div class="row">
     <div class="social col-4" id="twitter">
       <h1>Twitter</h1>
       <h2>@PBT_propeller</h2>
       <button><b>FOLLOW</b></button>
       <p style="text-align: justify; margin-top: 5%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <p style="text-align: right">an hour ago</p>
+      <p class="twitter-last-line">an hour ago</p>
     </div>
     <div class="social col-4" id="instagram">
       <h1>Instagram</h1>
@@ -105,14 +105,14 @@
       <h2>Subscribe our newsletter and never miss out our exclusive offers!</h2>
       <div style="margin-top: 10%;">
         <form>
-          <div class="input_wrapper">
-            <div class="input_text"><i>name</i></div><input type="text" name="name" required></div>
-          <div class="input_wrapper">
-            <div class="input_text"><i>email</i></div><input type="text" name="email" required></div>
-          <div class="input_wrapper">
-            <div class="input_text"><i>birthday</i>
+          <div class="input-wrapper">
+            <div class="input-text"><i>name</i></div><input type="text" name="name" required></div>
+          <div class="input-wrapper">
+            <div class="input-text"><i>email</i></div><input type="text" name="email" required></div>
+          <div class="input-wrapper">
+            <div class="input-text"><i>birthday</i>
             </div>
-            <div class="day_month_wrapper">
+            <div class="day-month-wrapper">
               <select id="day">
                 <option value="" disabled selected>dd</option>
                 <option value="1">1</option>
@@ -147,8 +147,7 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
               </select>
-            </div>
-            <div class="day_month_wrapper">
+              &emsp;
               <select id="month">
                 <option value="" disabled selected>mm</option>
                 <option value="1">1</option>
