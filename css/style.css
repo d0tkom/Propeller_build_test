@@ -381,7 +381,7 @@ nav ul a:hover {
 }
 
 .social input[type=text] {
-  width: 65%;
+  width: 60%;
 }
 
 .social button {
@@ -451,12 +451,12 @@ nav ul a:hover {
 
 .day-month-wrapper {
   display: inline-block;
-  width: 67%;
+  width: 61%;
   text-align: center;
 }
 
 .input-text {
-  width: 68px;
+  width: 80px;
   border-right: 2px solid;
   display: inline-block;
 }
