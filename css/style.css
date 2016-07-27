@@ -472,7 +472,7 @@ nav ul a:hover {
 /* footer format */
 footer {
   border-top: 3px double white;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 footer ul {
