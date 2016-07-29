@@ -1,4 +1,4 @@
-PBT build test - http://patriksinger.com/PBT/
+PBT build test - https://d0tkom.github.io/Propeller_build_test/
 
 Responsive design was implemented following mainly this tutorial:
 http://www.w3schools.com/css/css_rwd_grid.asp
